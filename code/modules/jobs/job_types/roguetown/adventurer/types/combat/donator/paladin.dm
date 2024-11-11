@@ -57,6 +57,8 @@
 			H.change_stat("constitution", 2) // Classic paladin is smurter then the battle master.
 			H.change_stat("intelligence", 2)
 			H.mind.AddSpell(new /obj/effect/proc_holder/spell/invoked/diagnose/secular)
+			H.mind.AddSpell(new	/obj/effect/proc_holder/spell/targeted/churn)
+			H.mind.AddSpell(new	/obj/effect/proc_holder/spell/targeted/lesser_heal)
 			shirt = /obj/item/clothing/suit/roguetown/armor/chainmail
 			neck = /obj/item/clothing/neck/roguetown/psicross/silver
 			armor = /obj/item/clothing/suit/roguetown/armor/plate/half
